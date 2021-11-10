@@ -47,7 +47,6 @@ def encode2(message,key):
         code += from_num_to_alphabet[number]
         i +=1
     return code
-print(encode2("russia","apple"))
 
 def decode2(code,key):
     message = ""
@@ -61,7 +60,7 @@ def decode2(code,key):
         message += from_num_to_alphabet[number]
         i+=1
     return message
-print(decode2("rlmkai","apple"))
+
 def encode3(message,key):
     code = ""
     for character in message:
